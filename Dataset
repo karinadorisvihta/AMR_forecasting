@@ -1,0 +1,2 @@
+dataset_sim <- resistance prevalence per trust per pathogen-antibiotic combination per month
+usage_sim <- usage rate per trust per antibiotic per month
