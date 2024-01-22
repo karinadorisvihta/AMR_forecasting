@@ -16,7 +16,10 @@ Denominators were downloaded from:
 https://www.england.nhs.uk/statistics/statistical-work-areas/bed-availability-and-occupancy/bed-data-overnight/
 https://www.england.nhs.uk/statistics/statistical-work-areas/bed-availability-and-occupancy/bed-data-day-only/
 
-Total day and overnight bed occupancy data was chosen as the denominator, and merged with the antibiotic usage data by TrustCode and quarter-year. Total DDDs per trust per antibiotic per month were divided by the average daily number of occupied day and overnight beds. These were further divided by the number of days in the respective month and multiplied by 100 in order to get the antibiotic usage rate (e.g. the antibiotic usage of 40 DDDs amoxicillin per 100 bed-days means 40% of inpatients receive one DDD of amoxicillin every day, an estimate of the therapeutic intensity).
+Total day and overnight bed occupancy data was chosen as the denominator, and merged with the antibiotic usage data by TrustCode and quarter-year. Total DDDs per trust per antibiotic per month were divided by the average daily number of occupied day and overnight beds. These were further divided by the number of days in the respective month and multiplied by 100 in order to obtain the average daily antibiotic usage rate per month (e.g. the antibiotic usage of 40 DDDs amoxicillin per 100 bed-days means 40% of inpatients receive one DDD of amoxicillin every day, an estimate of the therapeutic intensity).
+
+# Toy dataset
+The datasets in the analysis cannot be shared, therefore, we construct toy datasets with a similar structure, so that the interested reader can easily arrange their own datasets in this format and run the analysis. However, note that both the resistance prevalence and the usage rates provided in our toy examples are simply independent random samples froma U(0,100) distribution. 
 
 
 
