@@ -24,6 +24,25 @@ The datasets in the analysis cannot be shared, therefore, we construct toy datas
 # Models 
 Models contain a jupyter notebook with code ran on the toy dataset for feature engineering, model fitting, predictions, as well as feature importance calculations. In order to save the outputs, please uncomment pd.DataFrame commands. 
 
+# System requirements 
+The analysis was run on macOS, using packages that from what I am aware should be compatible with all other operating systems. 
+
+python 3.10.10 (main, Mar 21 2023, 13:41:39) [Clang 14.0.6 ]
+pandas 1.5.3
+numpy 1.23.5
+scikit-learn 1.2.2
+xgboost 1.7.4
+shap 0.41.0
+graphviz 2.50.0
+
+# Installation guide
+I recommend installing anaconda, creating a virtual environment, installing python, jupyter notebook, and all above required packages. This should only take a few minutes. 
+
+# Demo
+The jupyter notebook already reads in the toy datasets from this github repository. If you would like to save the outputs, please uncomment pd.DataFrame commands. These will then save .csv files with predictions for train and test dataset for all pathogen-antibiotic combinations and all model settings (different feature engineering, different parameters). These will be reflected in the .csv file names. One .csv file per pathogen-antibiotic combination will be saved with the feature importances. The runtime will depend on the size of your dataset and for example for the hyperparameter tuning on the number of combinations, however, one model runs very quickly, and the demo itself should finish running on the toy dataset in only a few minutes. 
+
+
+
 
 
 
