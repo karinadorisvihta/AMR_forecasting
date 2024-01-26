@@ -21,6 +21,9 @@ Total day and overnight bed occupancy data was chosen as the denominator, and me
 # Toy dataset
 The datasets in the analysis cannot be shared, therefore, we construct toy datasets with a similar structure, so that the interested reader can easily arrange their own datasets in this format and run the analysis. However, note that both the resistance prevalence and the usage rates provided in our toy examples are simply independent random samples froma U(0,100) distribution. 
 
+# Models 
+Models contain a jupyter notebook with code ran on the toy dataset for feature engineering, model fitting, predictions, as well as feature importance calculations. In order to save the outputs, please uncomment pd.DataFrame commands. 
+
 
 
 
